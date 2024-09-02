@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Expense Tracker</title>
+        <link rel="stylesheet" href="Expense-Tracker.css" />
+        <script src="Expense-Tracker.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Expense Tracker</h1>
+            <form id="expenseForm">
+                <input
+                    type="text"
+                    name=""
+                    id="ExpenseName"
+                    placeholder="Expense Name"
+                    required
+                />
+                <input
+                    type="number"
+                    name=""
+                    id="Amount"
+                    placeholder="Amount"
+                    required
+                />
+                <button type="submit">Add Expence</button>
+            </form>
+
+            <h2>Expenses</h2>
+            <ul id="expenseList"></ul>
+            <div id="Totel">
+                <h3>Totel is <span id="totelAmount">0.00</span></h3>
+            </div>
+        </div>
+    </body>
+</html>
