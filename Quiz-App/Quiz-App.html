@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz</title>
+        <link rel="stylesheet" href="Quiz-App.css" />
+        <script src="Quiz-App.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <form id="quizOptionsContainer">
+                <!-- <input type="text"  id="quizTopic" placeholder="Enter Topic Name" required>
+            <input type="number" id="noOfQuestion" placeholder="Enter Number Of Question" required> -->
+                <button type="submit">Start Quiz</button>
+            </form>
+
+            <div id="QuestionContainer" class="hidden">
+                <h2 id="questionText"></h2>
+                <ul id="ChoiceList"></ul>
+                <button id="nextQuestion">Next Question</button>
+            </div>
+
+            <div id="resultContainer" class="hidden">
+                <h2>Your Score</h2>
+                <p id="score"></p>
+                <button id="restart">Start Another Quiz</button>
+            </div>
+        </div>
+        <div id="instructionContainer">
+            Once Clicked on Next Question You cant Modify Your Answer
+        </div>
+    </body>
+</html>
