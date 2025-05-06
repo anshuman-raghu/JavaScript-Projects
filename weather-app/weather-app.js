@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const temp = document.getElementById("temp");
     const description = document.getElementById("description");
     const errorMsg = document.getElementById("errorMsg");
-    const APIkey = "afc507d63181e2f392b22781859f7e18";
+    const APIkey = "INSERT OPENWETHER API KEY";
 
     searchBtn.addEventListener("click", async function () {
         const city = cityInput.value.trim();
