@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Anshuman's JavaScript Projects</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #f0f0f0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            h1 {
+                color: #333;
+                margin-bottom: 30px;
+            }
+            .project-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 20px;
+            }
+            .project-card {
+                background-color: #fff;
+                border: 1px solid #ddd;
+                border-radius: 8px;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                width: 250px;
+                padding: 20px;
+                text-align: center;
+                transition: transform 0.2s ease-in-out;
+            }
+            .project-card:hover {
+                transform: translateY(-5px);
+            }
+            .project-card h2 {
+                margin-top: 0;
+                font-size: 1.5em;
+                color: #007bff;
+            }
+            .project-card a {
+                text-decoration: none;
+                color: inherit; /* So the h2 color is used */
+                display: block; /* Make the whole card clickable, effectively */
+            }
+            .project-card p {
+                font-size: 0.9em;
+                color: #666;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>My JavaScript Projects</h1>
+        <div class="project-container">
+            <div class="project-card">
+                <a href="./Expense-Tracker/Expense-Tracker.html">
+                    <h2>Expense Tracker</h2>
+                    <p>A tool to track your daily expenses.</p>
+                </a>
+            </div>
+            <div class="project-card">
+                <a href="./Quiz-App/Quiz-App.html">
+                    <h2>Quiz App</h2>
+                    <p>Test your knowledge with this interactive quiz.</p>
+                </a>
+            </div>
+            <div class="project-card">
+                <a href="./Shopping-Cart/Shopping-Cart.html">
+                    <h2>Shopping Cart</h2>
+                    <p>A simple shopping cart interface.</p>
+                </a>
+            </div>
+            <div class="project-card">
+                <a href="./todo-app/todo-app.html">
+                    <h2>Todo App</h2>
+                    <p>Organize your tasks with this to-do list.</p>
+                </a>
+            </div>
+            <div class="project-card">
+                <a href="./weather-app/weather-app.html">
+                    <h2>Weather App</h2>
+                    <p>Check the current weather conditions.</p>
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
