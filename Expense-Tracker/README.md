@@ -1,3 +1,18 @@
-# Expense-Tracker
+# Expense Tracker
 
-"This Expense Tracker is a web application designed to help users manage their personal finances by keeping a record of their expenses. It provides a user-friendly interface to add new expenses, view a list of all recorded expenses, delete unwanted entries, and see a running total of all expenditures. The application leverages browser local storage to ensure that expense data persists across sessions, meaning users won't lose their information when they close or refresh the page.Key Features:Add Expenses: Users can easily add a new expense by providing a descriptive name (e.g., "Groceries," "Rent," "Coffee") and the corresponding monetary amount.View Expense List: All entered expenses are displayed in a clear, itemized list, showing the name and amount for each entry.Delete Expenses: Individual expenses can be removed from the list with a simple click of a "Delete" button associated with each entry.Automatic Total Calculation: The application dynamically calculates and displays the total sum of all current expenses, providing an immediate overview of spending.Persistent Data Storage: Utilizes the browser's localStorage API to save expense data. This allows users to close their browser and return later to find their expense list intact.Simple and Intuitive UI: The interface is built with HTML and styled with CSS for a clean and straightforward user experience, focusing on ease of use for quick expense input and management.Technologies Used:HTML: Structures the web page and its content.CSS: Styles the application for a visually organized and pleasant user interface.JavaScript: Powers the core functionality, including:Handling user input for expense name and amount.Dynamically updating the expense list and total amount.Managing the addition and deletion of expense items.Interacting with localStorage for data persistence.This project serves as a practical example of how client-side JavaScript can be used to create useful, interactive web applications with data storage capabilities."
+This is a simple expense tracker application built with HTML, CSS, and JavaScript. It allows users to add expenses, view a list of their expenses, and see the total amount spent. Expenses are saved in the browser's local storage.
+
+## Features
+
+* **Add Expenses:** Users can input an expense name and amount to add it to their list.
+* **View Expenses:** Displays a list of all added expenses with their names and amounts.
+* **Delete Expenses:** Users can remove individual expenses from the list.
+* **Calculate Total:** Automatically calculates and displays the total of all expenses.
+* **Persistent Storage:** Expenses are saved in the browser's local storage, so they persist even after the browser is closed.
+
+## Files
+
+* `Expense-Tracker.html`: The main HTML file for the structure of the application.
+* `Expense-Tracker.css`: Contains the styles for the application.
+* `Expense-Tracker.js`: Contains the JavaScript code for the application's functionality.
+
